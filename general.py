@@ -1,5 +1,5 @@
 import os
-from pathlib import Path
+
 # Для каждого обработанного сайта своя папка
 def creatre_project(directory):
     if not os.path.exists(directory):
